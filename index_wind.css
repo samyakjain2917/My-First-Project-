@@ -1,0 +1,71 @@
+#box1{
+    height: 305px;
+    width: 100%;
+    background-image: url(wind.png);
+    background-size: cover;
+}
+#box2{
+    height: 320px;
+    width: 100%;
+}
+#welcome{
+    position: absolute;
+    top: 70px;
+    left: 7%;
+    font-size: 2px;
+}
+#energy{
+    color: black;
+    font-size:35em;
+}
+#location{
+    color: rgb(255, 153, 0);
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: x-large;
+}
+#parameter{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+#time{
+    margin-left: 390px;
+    margin-top: 30px;
+    padding: 5px;
+}
+#profile{
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 5px;
+}
+#b1{
+    color: black;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    position: absolute;
+    top: 500px;
+    left: 610px;
+}
+#b2{
+    color: black;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    position: absolute;
+    top: 550px;
+    left: 540px;
+    margin-top: 20px;
+}
+#b1:hover{
+    background-color:green;
+    color: white;
+}
+#b2:hover{
+    background-color:green;
+    color: white;
+}

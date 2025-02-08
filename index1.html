@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Details</title>
+    <link rel="stylesheet" href="style1.css">  <style>
+        /* Additional styles specific to solar.html */
+        body {
+            font-family: sans-serif; /* Use a suitable font */
+            margin: 0; /* Remove default body margins */
+            background-color: #f4f4f4; /* Light gray background */
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('image3.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .breadcrumbs {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .parameters-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff; /* Blue button */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .go-back {
+            margin-top: 20px;
+            background-color: #555; /* Darker gray */
+        }
+        .go-back:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Welcome to solar energy predictor</h1>
+    </div>
+    <div class="container">
+        <div class="breadcrumbs">
+            Home / Pages / solar energy predictor
+        </div>
+
+        <div class="parameters-section">
+            <h2>Enter the Parameters</h2>
+            <div class="input-group">
+                <label for="windprofile">Enter State</label>
+                <input type="text" id="windprofile" name="windprofile">
+            </div>
+            <div class="input-group">
+                <label for="timestamp">Enter Date</label>
+                <input type="text" id="timestamp" name="timestamp">
+            </div>
+            <span>
+                <form action="/server">
+                    <button type="submit" id="b1">Predict</button>
+                </form>
+                <form action="index.html">
+                    <button type="submit" id="b2">Go Back To Home</button>
+                </form>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
